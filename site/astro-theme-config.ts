@@ -16,7 +16,7 @@ const config = {
   url: 'https://HJ-Vera.github.io',
   base: '/From-Chaos-to-Intelligence',
   title: 'From Chaos to Intelligence',
-  logoLabel: 'Vera',
+  logoLabel: 'From Chaos to Intelligence',
   description: 'Notes on AI agents, evaluation, trace, and validation.',
   author: 'Jackie',
   },
