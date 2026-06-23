@@ -3,6 +3,7 @@
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import expressiveCode from 'astro-expressive-code';
+import { remarkMermaid } from './src/config/remark-mermaid.ts';
 import { defineConfig } from 'astro/config';
 import process from 'node:process';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
@@ -40,6 +41,7 @@ export default defineConfig({
   },
 
   markdown: {
+    remarkPlugins: [remarkMermaid],
     rehypePlugins: [
       rehypeSlug,
       [

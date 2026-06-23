@@ -126,4 +126,23 @@ const jsonLd = serializeScriptJson({
 
     mountReadingRailLoader();
   </script>
+
+  <script>
+    import { renderMermaid } from '../scripts/mermaid-init';
+
+    renderMermaid();
+  </script>
+
+  <style is:global>
+    .prose .mermaid {
+      display: flex;
+      justify-content: center;
+      margin: 1.75rem 0;
+      overflow-x: auto;
+    }
+    .prose .mermaid svg {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </BaseLayout>
