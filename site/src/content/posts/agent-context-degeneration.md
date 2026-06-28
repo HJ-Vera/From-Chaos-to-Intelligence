@@ -3,6 +3,8 @@ title: 'Agent 为什么越跑越笨'
 description: '长上下文是存储，AI Agent 缺失的是信息流管理。'
 pubDate: 2026-06-23
 category: 'Notes'
+heroImage: '../../assets/information-flow.png'
+homeFeatured: true
 ---
 
 > 长上下文是存储，AI Agent 缺失的是信息流管理。
