@@ -144,5 +144,38 @@ const jsonLd = serializeScriptJson({
       max-width: 100%;
       height: auto;
     }
+    .prose .mermaid .node rect,
+    .prose .mermaid .node circle,
+    .prose .mermaid .node ellipse,
+    .prose .mermaid .node polygon,
+    .prose .mermaid .node path,
+    .prose .mermaid .cluster rect {
+      fill: #f2f3f5 !important;
+      stroke: #111827 !important;
+      stroke-width: 0.75px !important;
+    }
+    .prose .mermaid .nodeLabel,
+    .prose .mermaid .nodeLabel p,
+    .prose .mermaid .nodeLabel span,
+    .prose .mermaid .label,
+    .prose .mermaid .label text,
+    .prose .mermaid .cluster-label,
+    .prose .mermaid .cluster-label span,
+    .prose .mermaid .edgeLabel,
+    .prose .mermaid .edgeLabel span {
+      color: #111827 !important;
+      fill: #111827 !important;
+    }
+    .prose .mermaid .flowchart-link {
+      stroke: #111827 !important;
+      stroke-width: 0.75px !important;
+    }
+    .prose .mermaid marker path {
+      fill: #111827 !important;
+      stroke: #111827 !important;
+    }
+    .prose .mermaid .labelBkg {
+      fill: #ffffff !important;
+    }
   </style>
 </BaseLayout>
