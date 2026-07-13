@@ -93,3 +93,38 @@
   border-color: color-mix(in srgb, #deebf8 24%, transparent) !important;
   background: color-mix(in srgb, #deebf8 8%, #1c2029) !important;
 }
+
+/* Plain-text examples use a light treatment for easier reading in long-form posts. */
+.expressive-code .frame:has(pre[data-language='text']) {
+  color-scheme: light;
+  border-color: #d8dde5;
+  background: #f2f3f5;
+}
+
+.expressive-code pre[data-language='text'] {
+  color: #111827 !important;
+  background: #f2f3f5 !important;
+}
+
+.expressive-code pre[data-language='text'] .ec-line,
+.expressive-code pre[data-language='text'] .code,
+.expressive-code pre[data-language='text'] span {
+  color: #111827 !important;
+}
+
+.expressive-code pre[data-language='text']::before {
+  color: #6b7280;
+}
+
+.expressive-code .frame:has(pre[data-language='text']) .copy button {
+  color: #374151;
+  border-color: #cbd1da !important;
+  background: color-mix(in srgb, #ffffff 72%, transparent) !important;
+}
+
+.expressive-code .frame:has(pre[data-language='text']) .copy button:hover,
+.expressive-code .frame:has(pre[data-language='text']) .copy button:focus-visible {
+  color: #111827;
+  border-color: #9ca3af !important;
+  background: #ffffff !important;
+}
