@@ -5,6 +5,7 @@ pubDate: 2026-06-23
 category: 'Notes'
 heroImage: '../../assets/tone-sample-ai-water.jpg'
 homeFeatured: true
+homeOrder: 2
 ---
 
 > 长上下文是存储，AI Agent 缺失的是信息流管理。

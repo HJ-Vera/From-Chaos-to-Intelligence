@@ -5,7 +5,7 @@ pubDate: '2026-03-20'
 category: 'Design'
 heroImage: '../../assets/tone-sample-blue-architecture.jpg'
 focusEffect: 'scroll-dark'
-homeOrder: 2
+homeOrder: 3
 ---
 
 If you want a different look for your site, start in one file:
