@@ -4,6 +4,7 @@ description: '评估分数不是能力本身；用标准误、置信区间、配
 pubDate: '2026-07-13T21:41:00+08:00'
 category: 'Research'
 heroImage: '../../assets/why-eval-rankings-are-unreliable.jpg'
+homeHeroOrder: 2
 homeOrder: 2
 ---
 

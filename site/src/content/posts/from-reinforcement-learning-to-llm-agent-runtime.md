@@ -4,6 +4,7 @@ description: '以 State、Policy、Action、Environment 与 Feedback 五要素�
 pubDate: '2026-07-22T09:45:00+08:00'
 category: 'Research'
 heroImage: '../../assets/from-reinforcement-learning-to-llm-agent-runtime.jpg'
+homeHeroOrder: 1
 homeOrder: 1
 ---
 

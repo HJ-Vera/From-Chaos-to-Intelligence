@@ -4,7 +4,6 @@ description: 'A short reference for the prose elements the theme styles. Heading
 pubDate: '2026-02-01'
 category: 'Markdown'
 heroImage: '../../assets/tone-sample-glass-building.jpg'
-homeHeroOrder: 2
 homeOrder: 6
 ---
 
