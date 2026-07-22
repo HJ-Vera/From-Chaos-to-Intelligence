@@ -8,6 +8,7 @@ const ui = {
   postsTitle: 'All Posts',
   heroTitle: 'Keep notes.',
   heroTitleLine2: '',
+  heroDescription: 'Focus on Agent Runtime, Evaluation Infrastructure, and Trustworthy AI Systems',
   viewAll: 'All Posts →',
   readLink: 'Read →',
   postFeed: {
