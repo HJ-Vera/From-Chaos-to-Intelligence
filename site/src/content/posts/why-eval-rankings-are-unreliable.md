@@ -4,7 +4,7 @@ description: '评估分数不是能力本身；用标准误、置信区间、配
 pubDate: '2026-07-13T21:41:00+08:00'
 category: 'Research'
 heroImage: '../../assets/why-eval-rankings-are-unreliable.jpg'
-homeOrder: 1
+homeOrder: 2
 ---
 
 > 上一篇文章讨论的是：如何让 Agent 的判分可信。本文讨论的是：即使判分可信，我们如何判断排名、提升和结论是否可信。
