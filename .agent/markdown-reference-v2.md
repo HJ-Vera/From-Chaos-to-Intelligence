@@ -3,9 +3,11 @@ title: 'Markdown You Will Actually Use'
 description: 'A short reference for the prose elements the theme styles. Headings, links, lists, tables, code, callouts.'
 pubDate: '2026-02-01'
 category: 'Markdown'
-heroImage: '../../assets/tone-sample-glass-building.jpg'
+heroImage: '../site/src/assets/tone-sample-glass-building.jpg'
 homeOrder: 6
 ---
+
+<!-- Archived AI reference: intentionally excluded from the published Astro posts collection. -->
 
 Use this post as a cheat sheet for the prose surface. Open it in two windows: source on one side, rendered post on the other.
 
